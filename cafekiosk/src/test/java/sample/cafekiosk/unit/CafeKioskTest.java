@@ -92,7 +92,7 @@ class CafeKioskTest {
 
     @DisplayName("음료 전체삭제 테스트")
     @Test
-    void clear(){
+    void clear() {
         //given
         CafeKiosk cafeKiosk = new CafeKiosk();
         cafeKiosk.add(new Americano());
